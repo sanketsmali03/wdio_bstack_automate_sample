@@ -1,6 +1,6 @@
-# Automated Testing Pipeline with Jenkins
+# Automated Testing Pipeline with Jenkins ( Master & Slave confiugration)
 
-This repository contains a Jenkins pipeline script for executing automated tests using WebDriverIO and BrowserStack Automate.
+This repository contains a Jenkins pipeline script for executing automated tests using WebDriverIO and BrowserStack Automate.The pipeline script will split features file equally across number of slaves machine in runtime
 
 ## Prerequisites
 
