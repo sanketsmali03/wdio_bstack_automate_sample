@@ -1,4 +1,4 @@
-Feature: The Internet Guinea Pig Website 11
+Feature: The Internet Guinea Pig Website 10
 
   Scenario Outline: As a user, I can log into the secure area
 
