@@ -67,8 +67,21 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome',
-        build: 'test-wdio',
+        capabilities: [{
+            'bstack:options': {
+                'projectName': 'BrowserStack',
+                'buildName': process.env.BROWSERSTACK_BUILD_NAME || 'browserstack-examples-webdriverio-test',
+                'debug': true,
+                'networkLogs': true,
+                'video': true,
+                'os': 'Windows',
+                'osVersion': '10'
+            },
+            browserName: 'Chrome',
+            browserVersion: 'latest',
+            acceptInsecureCerts: true
+        }],
+
     }],
 
     //
