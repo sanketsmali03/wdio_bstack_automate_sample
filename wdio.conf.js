@@ -67,7 +67,7 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        capabilities: [{
+
             'bstack:options': {
                 'projectName': 'BrowserStack',
                 'buildName': process.env.BROWSERSTACK_BUILD_NAME || 'browserstack-examples-webdriverio-test',
@@ -80,7 +80,6 @@ export const config = {
             browserName: 'Chrome',
             browserVersion: 'latest',
             acceptInsecureCerts: true
-        }],
 
     }],
 
