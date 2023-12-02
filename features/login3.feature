@@ -1,4 +1,4 @@
-Feature: The Internet Guinea Pig Websit 3
+Feature: The Internet Guinea Pig Website 3
 
   Scenario Outline: As a user, I can log into the secure area
 

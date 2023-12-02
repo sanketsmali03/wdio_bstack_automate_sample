@@ -70,7 +70,7 @@ export const config = {
 
             'bstack:options': {
                 'projectName': 'BrowserStack',
-                'buildName': process.env.BROWSERSTACK_BUILD_NAME || 'browserstack-examples-webdriverio-test',
+                'buildName': 'webdriverio-web-example-test-'+ process.env.BROWSERSTACK_BUILD_NAME,
                 'debug': true,
                 'networkLogs': true,
                 'video': true,
