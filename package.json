@@ -1,0 +1,16 @@
+{
+  "name": "wdio-bstack-sample-web",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/browserstack-service": "^8.26.1",
+    "@wdio/cli": "^8.26.1",
+    "@wdio/cucumber-framework": "^8.24.13",
+    "@wdio/local-runner": "^8.26.1",
+    "@wdio/spec-reporter": "^8.24.12"
+  },
+  "scripts": {
+    "wdio1": "wdio run wdio.conf.js --spec ./features/login.feature ./features/login2.feature",
+    "wdio2" : "wdio run wdio.conf.js --spec ./features/login3.feature ./features/login4.feature"
+
+  }
+}
